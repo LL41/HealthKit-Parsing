@@ -12,10 +12,10 @@ This program takes an Apple HealthKit XML file and formats it into usable CSV fi
 
 ## Using HealthKit-Parsing
 
-1. **Clone the repository:**
+1. **Clone this repo.**
 2. **Move your XML file:** Place the export.xml file into the HealthKit-Parsing directory.
-3. **Run the script:** python parse.py export.xml
+3. **Run the script:** python parse.py
 4. **Choose output format:**
-- **unprocessed:** All data in a single CSV file.
-- **grouped:** Data organized into separate CSV files by record type (see recordTypes.py for groupings).
+-    **unprocessed:** All data in a single CSV file.
+-    **grouped:** Data organized into separate CSV files by record type (see recordTypes.py for groupings).
 Your formatted data will be saved in the same directory.
